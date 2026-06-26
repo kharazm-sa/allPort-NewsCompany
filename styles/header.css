@@ -1,0 +1,160 @@
+:root{
+    --color-758BFD: #758BFD;
+    --color-8172D5: #8172D5;
+    --color-C33149: #C33149;
+    --color-FFB140: #FFB140;
+    --color-133B3A: #133B3A;
+    --color-69A3A2: #69A3A2;
+    --color-F2F5F8: #F2F5F8;
+    --color-27187F: #27187F;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0 solid;
+    list-style: none;
+}
+
+span{
+    color: var(--color-758BFD);
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+/* --------------------------------------------------------- */
+
+header{
+    position: relative;
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.top_header{
+    padding: .6rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid var(--color-F2F5F8);
+}
+
+.btn_account_header{
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+}
+
+.btn_account_header > svg{
+    height: 16px;
+    color: var(--color-758BFD);
+}
+
+.btn_account_header > span{
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-758BFD);
+}
+
+.languge_btn_header > span{
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-758BFD);
+}
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+.bottom_header{
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 0;
+}
+
+.brand_name{
+    cursor: pointer;
+}
+
+.heading_one , .heading_two{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.heading_one{
+    color: var(--color-27187F);
+}
+
+
+.nav_menu_header ul{
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+}
+
+.itam_nav_menu{
+    cursor: pointer;
+}
+
+.itam_nav_menu div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav_menu_header ul .itam_nav_menu div svg{
+    height: 1rem;
+    align-self: end;
+    color: var(--color-758BFD);
+}
+
+.itam_nav_menu div:last-child{
+    gap: 0 !important;
+}
+
+.search_part{
+    overflow: hidden;
+    border-radius: .3rem;
+    background-color: var(--color-F2F5F8);
+}
+
+.search_part input{
+    color: var(--color-69A3A2);
+    padding: .6rem 1rem;
+    background-color: var(--color-F2F5F8);
+}
+
+.search_part input::placeholder{
+    color: var(--color-69A3A2);
+}
+
+.search_part button{
+    cursor: pointer;
+    padding: .6rem;
+    background-color: var(--color-8172D5);
+    border-radius: .3rem;
+}
+
+.search_part button svg path{
+    color: white;
+}
+
+.search_part input:focus{
+    border: 1px solid var(--color-69A3A2);
+}
+
+
