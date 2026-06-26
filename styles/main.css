@@ -293,3 +293,54 @@ span svg{
     color: black;
     height: 1rem;
 }
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+.virtual_event_side{
+    display: flex;
+    background: #fff;
+    max-width: 100rem ;
+    margin: 5rem auto;
+}
+
+.event_left_side{
+   
+}
+.event_left_side{
+    
+}
+
+.event_right_side{
+    width: 50%;
+    padding: 2.6rem 10rem 2.6rem  2.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.event_right_side > *{
+    padding: 0;
+    padding-bottom: 1.6rem;
+}
+
+.event_right_side a{
+    align-self: end;
+}
+
+.titel_right_side{
+    color: var(--color-FFB140);
+}
+
+.date{
+    color: var(--color-69A3A2);
+}
+
+.event_right_side button{
+    background-color: var(--color-758BFD);
+    color: #fff;
+    padding: .7rem;
+    border-radius: .4rem;
+}
