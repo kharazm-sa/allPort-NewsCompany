@@ -459,3 +459,13 @@ footer{
     font-size: 18px;
     font-weight: 600;
 }
+
+footer .my_info{
+    padding: .2rem 0;
+    text-align: center;
+    display: block;
+    color: #27187F;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--color-FFB140);
+}
