@@ -153,8 +153,4 @@ header{
     color: white;
 }
 
-.search_part input:focus{
-    border: 1px solid var(--color-69A3A2);
-}
-
 
