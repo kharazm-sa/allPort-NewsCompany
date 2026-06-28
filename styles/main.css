@@ -182,11 +182,20 @@ main{
     gap: .8rem;
     margin: 0 auto;
     text-align: center;
+    align-items: center;
+    transition: all 100ms ease-in;
 }
 
 .rigthside_hero div span{
     color: var(--color-133B3A);
     font-size: 12px;
+}
+
+.icon_rigthside:hover{
+    padding: .3rem;
+    border: 1px solid var(--color-758BFD);
+    border-radius: .2rem;
+    box-shadow: 0px 0px 10px var(--color-758BFD);
 }
 
 
@@ -225,12 +234,12 @@ main{
 }
 
 .box{
-    
     display: flex;
     flex-direction: column;
     border-radius: .4rem;
     padding: 1rem;
     background-color: #fff;
+    transition: all 100ms ease-in;
 }
 
 .box_text{
@@ -253,6 +262,11 @@ main{
     font-size: 12px;
 }
 
+.box:hover{
+    padding: 1.2rem;
+    border-radius: .2rem;
+    box-shadow:inset 0px 0px 10px var(--color-758BFD);
+}
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
@@ -286,12 +300,27 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 100ms ease-in;
 }
 
 
 span svg{
     color: black;
     height: 1rem;
+}
+
+.card:hover{
+    background-color: var(--color-758BFD);
+}
+
+.card:hover > span:first-child{
+    color: var(--color-F2F5F8);
+    text-shadow: 0 0 6px white;
+}
+
+.card:hover > span > svg{
+    color: var(--color-F2F5F8) ;
+
 }
 
 /* ------------------------------------------------------------------ */
@@ -336,8 +365,13 @@ span svg{
     color: #fff;
     padding: .7rem;
     border-radius: .4rem;
+    transition: all 100ms ease-in;
 }
 
+.event_right_side button:hover{
+    background-color: var(--color-8172D5);
+    padding: .8rem;
+}
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
