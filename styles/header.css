@@ -56,6 +56,8 @@ header{
     display: flex;
     gap: .2rem;
     align-items: center;
+    height: 20px;
+    transition: all 100ms ease-in;
 }
 
 .btn_account_header > svg{
@@ -73,6 +75,17 @@ header{
     font-size: 12px;
     font-weight: bold;
     color: var(--color-758BFD);
+}
+
+.btn_account_header:hover{
+    background-color: var(--color-8172D5);
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.btn_account_header:hover > svg , .btn_account_header:hover > span{
+    color: var(--color-F2F5F8);
+
 }
 
 /* ---------------------------------------------- */
